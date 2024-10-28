@@ -1,0 +1,293 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+
+*{
+    box-sizing: boder-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.topo{
+    display:flex;
+    flex-flow: row wrap;
+    height:100px;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    border-bottom:3px solid #b36161;
+}
+.nome{
+    flex:20%;
+    margin-left: 10%;
+    text-align: left;
+    
+}
+.nome h1{
+    font-family: "Concert One", serif;
+    color:#ED7A7A;
+    font-size: 38px;
+}
+
+.menu{
+    flex:60%;
+    text-decoration-color: grey;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #ED7A7A;
+    text-decoration: none;
+    font-size:20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color:#ED7A7A;
+    border-top: 4px solid #ED7A7A;
+    
+}
+#botao{
+    background: gray;
+    padding: 10px 25px;
+    color: whitesmoke;
+    border-radius: 400px;
+    margin-right: 15%;
+    margin-left: 5%;
+    text-decoration: none;
+}
+#botao:hover{
+border:none;
+background: #ED7A7A;
+box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background: gray;
+    background-repeat: no-repeat;
+    background-image: url("../Imagens/Rosa.jpg");
+    background-size:cover;
+    background-position: center;
+    align-items: center;
+    align-content: center;
+   height: 500px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 35%;
+    /*border: 1px solid pink;*/
+}
+.headline h2{
+font-weight: 900;
+font-size: 20px;
+color: whitesmoke;
+padding: 0;
+margin:0;
+text-align: left;
+}
+.contact{
+    background: gray;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    
+}
+.contact:hover{
+    border:none;
+background: #ED7A7A;
+
+}
+.img{
+    margin-right: 10%;
+    flex:35%;
+    text-align: center;
+    /*border: 1px solid pink;*/
+
+}
+
+section {
+    display: inline-block;
+    margin-top:80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color:#ED7A7A;
+    font-size: 38px;
+}
+.eu{
+    display: flex;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin:1%;
+    border: 1px solid #ED7A7A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background: #ED7A7A;
+    color:whitesmoke;
+    padding: 25px;
+}
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover img{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display:block;
+}
+.texto-oculto{
+    display: none;
+}
+
+footer{
+    margin-top:100px;
+    height: 150px;
+    background:#ED7A7A;
+    text-align: center;
+    border-top:solid black;
+    padding: 15px;
+}
+.rodape{
+    text-decoration: none;
+    padding: 15px;
+    color: whitesmoke;
+}
+.links{
+    text-decoration: none;
+    padding: 15px;
+    color: whitesmoke;
+}
+.links:hover{
+    color:#b36161;
+
+}
+.container{
+    display: flex;
+    margin-right: 15px;
+}
+
+.card2{
+    border-radius: 20px;
+    margin-left: 10px;
+    background-image: url("../Imagens/ceupink.jpg");
+    background-size:cover;
+    background-position: center;
+    flex: 1;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.card2:hover{
+    flex:2;
+    background-color: #b36161;
+}
+
+.cert{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+.cert h2{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+}
+.fundo{
+    background-image: url("../Imagens/ceupink.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+}
+.card-text2{
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 10px;
+    color:whitesmoke;
+    font-size: 25px;
+    justify-content: center;
+
+}
+.card:hover .card-text2{
+    display: none;
+}
+.card2:hover .texto-oculto2{
+    display:block;
+}
+.texto-oculto2{
+    display: none;
+    margin-left:10px ;
+    padding: center;
+    text-align: Center;
+    margin-bottom: 15px;
+}
+.backgroundme{
+    background-image: url("../Imagens/Rosa.jpg");
+    background-size:cover;
+    background-position: center;
+    
+}
+.text h2{
+    color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    
+}
+.sobremim{
+    margin-left: 10%;
+    flex: 35%;
+    border: 1px solid #ED7A7A;
+    margin-right: 10%;
+    background-color: #ED7A7A;
+    color:whitesmoke
+}
+li{
+    color: whitesmoke;
+}
+.position{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+.shrink img {
+    transition: 1s ease;
+    text-decoration: none;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+
+    }
+    
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
