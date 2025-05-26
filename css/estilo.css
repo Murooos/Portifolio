@@ -291,3 +291,16 @@ li{
     transform: scale(0.8);
     transition: 1s ease;
     }
+
+.meio{
+        display: flex;
+        flex-flow: row wrap;
+        background: gray;
+        background-repeat: no-repeat;
+        background-image: url("../Imagens/pet.jpg");
+        background-size:cover;
+        background-position: center;
+        align-items: center;
+        align-content: center;
+       height: 500px;
+    }
